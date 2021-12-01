@@ -15,6 +15,7 @@
 		2C9B1AC52757AE4A006FCCCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */; };
 		2C9B1ACE2757B330006FCCCA /* ContextMenusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1ACD2757B330006FCCCA /* ContextMenusViewController.swift */; };
 		2C9B1AD02757B524006FCCCA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1ACF2757B524006FCCCA /* ImageCollectionViewCell.swift */; };
+		2C9B1AFB2757D7B6006FCCCA /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1AFA2757D7B6006FCCCA /* MVVMViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		2C9B1AC62757AE4A006FCCCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C9B1ACD2757B330006FCCCA /* ContextMenusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenusViewController.swift; sourceTree = "<group>"; };
 		2C9B1ACF2757B524006FCCCA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		2C9B1AFA2757D7B6006FCCCA /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				2C9B1ACC2757B0F4006FCCCA /* ContextMenusInCollectionView */,
+				2C9B1AF92757D793006FCCCA /* MVVMBinding */,
 				2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */,
 				2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
@@ -79,6 +82,14 @@
 				2C9B1ACF2757B524006FCCCA /* ImageCollectionViewCell.swift */,
 			);
 			path = ContextMenusInCollectionView;
+			sourceTree = "<group>";
+		};
+		2C9B1AF92757D793006FCCCA /* MVVMBinding */ = {
+			isa = PBXGroup;
+			children = (
+				2C9B1AFA2757D7B6006FCCCA /* MVVMViewController.swift */,
+			);
+			path = MVVMBinding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,6 +165,7 @@
 			files = (
 				2C9B1ABD2757AE49006FCCCA /* ViewController.swift in Sources */,
 				2C9B1AD02757B524006FCCCA /* ImageCollectionViewCell.swift in Sources */,
+				2C9B1AFB2757D7B6006FCCCA /* MVVMViewController.swift in Sources */,
 				2C9B1AB92757AE49006FCCCA /* AppDelegate.swift in Sources */,
 				2C9B1ACE2757B330006FCCCA /* ContextMenusViewController.swift in Sources */,
 				2C9B1ABB2757AE49006FCCCA /* SceneDelegate.swift in Sources */,
