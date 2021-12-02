@@ -44,12 +44,10 @@ class CallingViewController: UIViewController {
         // 처음 alert를 통해 메소드를 연결하는 줄 알았지만, iOS 내장 함수 존재
         // 참고 블로그 링크 -> https://borabong.tistory.com/7
         
-        let urlString = "tel://" + "010-0000-0000"
+        let urlString = "tel://" + "010-8749-2753"
         if let url = NSURL(string: urlString), UIApplication.shared.canOpenURL(url as URL) {
             UIApplication.shared.open(url as URL, options: [:], completionHandler: nil)
+
         }
-        
     }
-
-
 }

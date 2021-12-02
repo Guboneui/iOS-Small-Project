@@ -17,9 +17,13 @@
 		2C9B1AD02757B524006FCCCA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1ACF2757B524006FCCCA /* ImageCollectionViewCell.swift */; };
 		2C9B1AFB2757D7B6006FCCCA /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1AFA2757D7B6006FCCCA /* MVVMViewController.swift */; };
 		2CD2193A27593308004AB07F /* CallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193927593308004AB07F /* CallingViewController.swift */; };
+		2CD2193D2759524A004AB07F /* WaterFallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193C2759524A004AB07F /* WaterFallViewController.swift */; };
+		2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */; };
+		7A0A70031FE4A69D537EE445 /* Pods_iOS_Small_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7111F1741AFEA5DDF98277D2 /* Pods_iOS_Small_Project.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04224C214197F316CD6357A2 /* Pods-iOS Small Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Small Project.debug.xcconfig"; path = "Target Support Files/Pods-iOS Small Project/Pods-iOS Small Project.debug.xcconfig"; sourceTree = "<group>"; };
 		2C9B1AB52757AE49006FCCCA /* iOS Small Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Small Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +36,10 @@
 		2C9B1ACF2757B524006FCCCA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		2C9B1AFA2757D7B6006FCCCA /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
 		2CD2193927593308004AB07F /* CallingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingViewController.swift; sourceTree = "<group>"; };
+		2CD2193C2759524A004AB07F /* WaterFallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallViewController.swift; sourceTree = "<group>"; };
+		2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		7111F1741AFEA5DDF98277D2 /* Pods_iOS_Small_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Small_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98D7605603EF340DC6CF15FF /* Pods-iOS Small Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Small Project.release.xcconfig"; path = "Target Support Files/Pods-iOS Small Project/Pods-iOS Small Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A0A70031FE4A69D537EE445 /* Pods_iOS_Small_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		071E21234AE79204C9362AA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04224C214197F316CD6357A2 /* Pods-iOS Small Project.debug.xcconfig */,
+				98D7605603EF340DC6CF15FF /* Pods-iOS Small Project.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		2C9B1AAC2757AE49006FCCCA = {
 			isa = PBXGroup;
 			children = (
 				2C9B1AB72757AE49006FCCCA /* iOS Small Project */,
 				2C9B1AB62757AE49006FCCCA /* Products */,
+				071E21234AE79204C9362AA4 /* Pods */,
+				DE6A43AD99B2ABE598B111A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,8 +86,9 @@
 			children = (
 				2C9B1ACC2757B0F4006FCCCA /* ContextMenusInCollectionView */,
 				2C9B1AF92757D793006FCCCA /* MVVMBinding */,
-				2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */,
 				2CD21938275932C6004AB07F /* CallingExample */,
+				2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */,
+				2CD2193B275947C1004AB07F /* WaterfallLayoutCollectionView */,
 				2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
 				2C9B1ABE2757AE49006FCCCA /* Main.storyboard */,
@@ -103,6 +124,23 @@
 			path = CallingExample;
 			sourceTree = "<group>";
 		};
+		2CD2193B275947C1004AB07F /* WaterfallLayoutCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				2CD2193C2759524A004AB07F /* WaterFallViewController.swift */,
+				2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */,
+			);
+			path = WaterfallLayoutCollectionView;
+			sourceTree = "<group>";
+		};
+		DE6A43AD99B2ABE598B111A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7111F1741AFEA5DDF98277D2 /* Pods_iOS_Small_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -110,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C9B1AC92757AE4A006FCCCA /* Build configuration list for PBXNativeTarget "iOS Small Project" */;
 			buildPhases = (
+				3233DD0AB39E838FB800AB54 /* [CP] Check Pods Manifest.lock */,
 				2C9B1AB12757AE49006FCCCA /* Sources */,
 				2C9B1AB22757AE49006FCCCA /* Frameworks */,
 				2C9B1AB32757AE49006FCCCA /* Resources */,
+				58F7F70CF53F1745E9F1BCA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,16 +209,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3233DD0AB39E838FB800AB54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS Small Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58F7F70CF53F1745E9F1BCA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Small Project/Pods-iOS Small Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iOS Small Project/Pods-iOS Small Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS Small Project/Pods-iOS Small Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C9B1AB12757AE49006FCCCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2C9B1ABD2757AE49006FCCCA /* ViewController.swift in Sources */,
+				2CD2193D2759524A004AB07F /* WaterFallViewController.swift in Sources */,
 				2C9B1AD02757B524006FCCCA /* ImageCollectionViewCell.swift in Sources */,
 				2CD2193A27593308004AB07F /* CallingViewController.swift in Sources */,
 				2C9B1AFB2757D7B6006FCCCA /* MVVMViewController.swift in Sources */,
 				2C9B1AB92757AE49006FCCCA /* AppDelegate.swift in Sources */,
+				2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */,
 				2C9B1ACE2757B330006FCCCA /* ContextMenusViewController.swift in Sources */,
 				2C9B1ABB2757AE49006FCCCA /* SceneDelegate.swift in Sources */,
 			);
@@ -324,6 +408,7 @@
 		};
 		2C9B1ACA2757AE4A006FCCCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04224C214197F316CD6357A2 /* Pods-iOS Small Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -352,6 +437,7 @@
 		};
 		2C9B1ACB2757AE4A006FCCCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D7605603EF340DC6CF15FF /* Pods-iOS Small Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
