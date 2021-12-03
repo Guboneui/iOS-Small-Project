@@ -19,6 +19,7 @@
 		2CD2193A27593308004AB07F /* CallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193927593308004AB07F /* CallingViewController.swift */; };
 		2CD2193D2759524A004AB07F /* WaterFallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193C2759524A004AB07F /* WaterFallViewController.swift */; };
 		2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */; };
+		2CEB4F052759BDA400E162D0 /* ShakeGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB4F042759BDA400E162D0 /* ShakeGestureViewController.swift */; };
 		7A0A70031FE4A69D537EE445 /* Pods_iOS_Small_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7111F1741AFEA5DDF98277D2 /* Pods_iOS_Small_Project.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +39,7 @@
 		2CD2193927593308004AB07F /* CallingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingViewController.swift; sourceTree = "<group>"; };
 		2CD2193C2759524A004AB07F /* WaterFallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallViewController.swift; sourceTree = "<group>"; };
 		2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CEB4F042759BDA400E162D0 /* ShakeGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGestureViewController.swift; sourceTree = "<group>"; };
 		7111F1741AFEA5DDF98277D2 /* Pods_iOS_Small_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Small_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D7605603EF340DC6CF15FF /* Pods-iOS Small Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Small Project.release.xcconfig"; path = "Target Support Files/Pods-iOS Small Project/Pods-iOS Small Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,11 +89,12 @@
 				2C9B1ACC2757B0F4006FCCCA /* ContextMenusInCollectionView */,
 				2C9B1AF92757D793006FCCCA /* MVVMBinding */,
 				2CD21938275932C6004AB07F /* CallingExample */,
-				2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */,
 				2CD2193B275947C1004AB07F /* WaterfallLayoutCollectionView */,
+				2C9B1ABE2757AE49006FCCCA /* Main.storyboard */,
+				2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */,
+				2CEB4F032759BD8900E162D0 /* ShakeGesture */,
 				2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
-				2C9B1ABE2757AE49006FCCCA /* Main.storyboard */,
 				2C9B1AC12757AE4A006FCCCA /* Assets.xcassets */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
 				2C9B1AC62757AE4A006FCCCA /* Info.plist */,
@@ -131,6 +134,14 @@
 				2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */,
 			);
 			path = WaterfallLayoutCollectionView;
+			sourceTree = "<group>";
+		};
+		2CEB4F032759BD8900E162D0 /* ShakeGesture */ = {
+			isa = PBXGroup;
+			children = (
+				2CEB4F042759BDA400E162D0 /* ShakeGestureViewController.swift */,
+			);
+			path = ShakeGesture;
 			sourceTree = "<group>";
 		};
 		DE6A43AD99B2ABE598B111A2 /* Frameworks */ = {
@@ -264,6 +275,7 @@
 				2C9B1AB92757AE49006FCCCA /* AppDelegate.swift in Sources */,
 				2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */,
 				2C9B1ACE2757B330006FCCCA /* ContextMenusViewController.swift in Sources */,
+				2CEB4F052759BDA400E162D0 /* ShakeGestureViewController.swift in Sources */,
 				2C9B1ABB2757AE49006FCCCA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
