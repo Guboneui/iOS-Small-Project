@@ -21,6 +21,7 @@
 		2CB53D27275E78220009A4A6 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D26275E78220009A4A6 /* ContainerViewController.swift */; };
 		2CB53D29275E80CC0009A4A6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D28275E80CC0009A4A6 /* InfoViewController.swift */; };
 		2CB53D2C275EAFD60009A4A6 /* ActivityRingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D2B275EAFD60009A4A6 /* ActivityRingViewController.swift */; };
+		2CB53D30275EB4030009A4A6 /* BlurAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D2F275EB4030009A4A6 /* BlurAnimationViewController.swift */; };
 		2CD2193A27593308004AB07F /* CallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193927593308004AB07F /* CallingViewController.swift */; };
 		2CD2193D2759524A004AB07F /* WaterFallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193C2759524A004AB07F /* WaterFallViewController.swift */; };
 		2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */; };
@@ -46,6 +47,7 @@
 		2CB53D26275E78220009A4A6 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 		2CB53D28275E80CC0009A4A6 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		2CB53D2B275EAFD60009A4A6 /* ActivityRingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingViewController.swift; sourceTree = "<group>"; };
+		2CB53D2F275EB4030009A4A6 /* BlurAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurAnimationViewController.swift; sourceTree = "<group>"; };
 		2CD2193927593308004AB07F /* CallingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingViewController.swift; sourceTree = "<group>"; };
 		2CD2193C2759524A004AB07F /* WaterFallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallViewController.swift; sourceTree = "<group>"; };
 		2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */,
 				2CB53D2A275EAFB80009A4A6 /* ActivityRing */,
 				2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */,
+				2CB53D2D275EB3ED0009A4A6 /* Blur Animation */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
 				2C9B1AC12757AE4A006FCCCA /* Assets.xcassets */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
@@ -148,6 +151,14 @@
 				2CB53D2B275EAFD60009A4A6 /* ActivityRingViewController.swift */,
 			);
 			path = ActivityRing;
+			sourceTree = "<group>";
+		};
+		2CB53D2D275EB3ED0009A4A6 /* Blur Animation */ = {
+			isa = PBXGroup;
+			children = (
+				2CB53D2F275EB4030009A4A6 /* BlurAnimationViewController.swift */,
+			);
+			path = "Blur Animation";
 			sourceTree = "<group>";
 		};
 		2CD21938275932C6004AB07F /* CallingExample */ = {
@@ -298,6 +309,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB53D30275EB4030009A4A6 /* BlurAnimationViewController.swift in Sources */,
 				2C9B1ABD2757AE49006FCCCA /* ViewController.swift in Sources */,
 				2CD2193D2759524A004AB07F /* WaterFallViewController.swift in Sources */,
 				2CB53D27275E78220009A4A6 /* ContainerViewController.swift in Sources */,
