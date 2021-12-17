@@ -23,6 +23,7 @@
 		2CB53D2C275EAFD60009A4A6 /* ActivityRingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D2B275EAFD60009A4A6 /* ActivityRingViewController.swift */; };
 		2CB53D30275EB4030009A4A6 /* BlurAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D2F275EB4030009A4A6 /* BlurAnimationViewController.swift */; };
 		2CC2FEAB276BB11300F230E0 /* FaceIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEAA276BB11300F230E0 /* FaceIDViewController.swift */; };
+		2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEAC276D286700F230E0 /* NewButtonViewController.swift */; };
 		2CD2193A27593308004AB07F /* CallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193927593308004AB07F /* CallingViewController.swift */; };
 		2CD2193D2759524A004AB07F /* WaterFallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193C2759524A004AB07F /* WaterFallViewController.swift */; };
 		2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */; };
@@ -50,6 +51,7 @@
 		2CB53D2B275EAFD60009A4A6 /* ActivityRingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingViewController.swift; sourceTree = "<group>"; };
 		2CB53D2F275EB4030009A4A6 /* BlurAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurAnimationViewController.swift; sourceTree = "<group>"; };
 		2CC2FEAA276BB11300F230E0 /* FaceIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDViewController.swift; sourceTree = "<group>"; };
+		2CC2FEAC276D286700F230E0 /* NewButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButtonViewController.swift; sourceTree = "<group>"; };
 		2CD2193927593308004AB07F /* CallingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingViewController.swift; sourceTree = "<group>"; };
 		2CD2193C2759524A004AB07F /* WaterFallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallViewController.swift; sourceTree = "<group>"; };
 		2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -108,10 +110,11 @@
 				2CB53D21275E75800009A4A6 /* SideMenu */,
 				2CB53D2D275EB3ED0009A4A6 /* Blur Animation */,
 				2CB53D2A275EAFB80009A4A6 /* ActivityRing */,
+				2CC2FEA9276BB10400F230E0 /* FaceID */,
 				2C9B1ABE2757AE49006FCCCA /* Main.storyboard */,
 				2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */,
+				2CC2FEAE276D289000F230E0 /* NewButton */,
 				2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */,
-				2CC2FEA9276BB10400F230E0 /* FaceID */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
 				2C9B1AC12757AE4A006FCCCA /* Assets.xcassets */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
@@ -170,6 +173,14 @@
 				2CC2FEAA276BB11300F230E0 /* FaceIDViewController.swift */,
 			);
 			path = FaceID;
+			sourceTree = "<group>";
+		};
+		2CC2FEAE276D289000F230E0 /* NewButton */ = {
+			isa = PBXGroup;
+			children = (
+				2CC2FEAC276D286700F230E0 /* NewButtonViewController.swift */,
+			);
+			path = NewButton;
 			sourceTree = "<group>";
 		};
 		2CD21938275932C6004AB07F /* CallingExample */ = {
@@ -337,6 +348,7 @@
 				2C9B1ACE2757B330006FCCCA /* ContextMenusViewController.swift in Sources */,
 				2CEB4F052759BDA400E162D0 /* ShakeGestureViewController.swift in Sources */,
 				2C9B1ABB2757AE49006FCCCA /* SceneDelegate.swift in Sources */,
+				2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
