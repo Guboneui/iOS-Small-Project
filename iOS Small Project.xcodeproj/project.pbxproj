@@ -25,6 +25,7 @@
 		2CC2FEAB276BB11300F230E0 /* FaceIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEAA276BB11300F230E0 /* FaceIDViewController.swift */; };
 		2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEAC276D286700F230E0 /* NewButtonViewController.swift */; };
 		2CC2FEB1276D2C0600F230E0 /* LocationButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEB0276D2C0600F230E0 /* LocationButtonViewController.swift */; };
+		2CC2FEB8276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEB7276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift */; };
 		2CD2193A27593308004AB07F /* CallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193927593308004AB07F /* CallingViewController.swift */; };
 		2CD2193D2759524A004AB07F /* WaterFallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193C2759524A004AB07F /* WaterFallViewController.swift */; };
 		2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */; };
@@ -54,6 +55,7 @@
 		2CC2FEAA276BB11300F230E0 /* FaceIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDViewController.swift; sourceTree = "<group>"; };
 		2CC2FEAC276D286700F230E0 /* NewButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButtonViewController.swift; sourceTree = "<group>"; };
 		2CC2FEB0276D2C0600F230E0 /* LocationButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationButtonViewController.swift; sourceTree = "<group>"; };
+		2CC2FEB7276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiAnimationEffectViewController.swift; sourceTree = "<group>"; };
 		2CD2193927593308004AB07F /* CallingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingViewController.swift; sourceTree = "<group>"; };
 		2CD2193C2759524A004AB07F /* WaterFallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallViewController.swift; sourceTree = "<group>"; };
 		2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */,
 				2CC2FEAF276D2BF700F230E0 /* LocationButton */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
+				2CC2FEB7276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift */,
 				2C9B1AC12757AE4A006FCCCA /* Assets.xcassets */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
 				2C9B1AC62757AE4A006FCCCA /* Info.plist */,
@@ -360,6 +363,7 @@
 				2CEB4F052759BDA400E162D0 /* ShakeGestureViewController.swift in Sources */,
 				2C9B1ABB2757AE49006FCCCA /* SceneDelegate.swift in Sources */,
 				2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */,
+				2CC2FEB8276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift in Sources */,
 				2CC2FEB1276D2C0600F230E0 /* LocationButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
