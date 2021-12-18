@@ -26,6 +26,7 @@
 		2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEAC276D286700F230E0 /* NewButtonViewController.swift */; };
 		2CC2FEB1276D2C0600F230E0 /* LocationButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEB0276D2C0600F230E0 /* LocationButtonViewController.swift */; };
 		2CC2FEB8276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEB7276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift */; };
+		2CC2FEBD276E5D7B00F230E0 /* ColorPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEBC276E5D7B00F230E0 /* ColorPickerViewController.swift */; };
 		2CD2193A27593308004AB07F /* CallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193927593308004AB07F /* CallingViewController.swift */; };
 		2CD2193D2759524A004AB07F /* WaterFallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193C2759524A004AB07F /* WaterFallViewController.swift */; };
 		2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */; };
@@ -56,6 +57,7 @@
 		2CC2FEAC276D286700F230E0 /* NewButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButtonViewController.swift; sourceTree = "<group>"; };
 		2CC2FEB0276D2C0600F230E0 /* LocationButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationButtonViewController.swift; sourceTree = "<group>"; };
 		2CC2FEB7276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettiAnimationEffectViewController.swift; sourceTree = "<group>"; };
+		2CC2FEBC276E5D7B00F230E0 /* ColorPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerViewController.swift; sourceTree = "<group>"; };
 		2CD2193927593308004AB07F /* CallingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallingViewController.swift; sourceTree = "<group>"; };
 		2CD2193C2759524A004AB07F /* WaterFallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallViewController.swift; sourceTree = "<group>"; };
 		2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallImageCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -106,6 +108,9 @@
 		2C9B1AB72757AE49006FCCCA /* iOS Small Project */ = {
 			isa = PBXGroup;
 			children = (
+				2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */,
+				2C9B1ABE2757AE49006FCCCA /* Main.storyboard */,
+				2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */,
 				2C9B1ACC2757B0F4006FCCCA /* ContextMenusInCollectionView */,
 				2C9B1AF92757D793006FCCCA /* MVVMBinding */,
 				2CD21938275932C6004AB07F /* CallingExample */,
@@ -115,15 +120,13 @@
 				2CB53D2D275EB3ED0009A4A6 /* Blur Animation */,
 				2CB53D2A275EAFB80009A4A6 /* ActivityRing */,
 				2CC2FEA9276BB10400F230E0 /* FaceID */,
-				2C9B1ABE2757AE49006FCCCA /* Main.storyboard */,
-				2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */,
 				2CC2FEAE276D289000F230E0 /* NewButton */,
-				2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */,
 				2CC2FEAF276D2BF700F230E0 /* LocationButton */,
-				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
-				2CC2FEB7276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift */,
+				2CC2FEBB276E5D6D00F230E0 /* ColorPicker */,
+				2CC2FEBA276E5D6500F230E0 /* ConfettiAnimationEffect */,
 				2C9B1AC12757AE4A006FCCCA /* Assets.xcassets */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
+				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
 				2C9B1AC62757AE4A006FCCCA /* Info.plist */,
 			);
 			path = "iOS Small Project";
@@ -195,6 +198,22 @@
 				2CC2FEB0276D2C0600F230E0 /* LocationButtonViewController.swift */,
 			);
 			path = LocationButton;
+			sourceTree = "<group>";
+		};
+		2CC2FEBA276E5D6500F230E0 /* ConfettiAnimationEffect */ = {
+			isa = PBXGroup;
+			children = (
+				2CC2FEB7276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift */,
+			);
+			path = ConfettiAnimationEffect;
+			sourceTree = "<group>";
+		};
+		2CC2FEBB276E5D6D00F230E0 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				2CC2FEBC276E5D7B00F230E0 /* ColorPickerViewController.swift */,
+			);
+			name = ColorPicker;
 			sourceTree = "<group>";
 		};
 		2CD21938275932C6004AB07F /* CallingExample */ = {
@@ -362,6 +381,7 @@
 				2C9B1ACE2757B330006FCCCA /* ContextMenusViewController.swift in Sources */,
 				2CEB4F052759BDA400E162D0 /* ShakeGestureViewController.swift in Sources */,
 				2C9B1ABB2757AE49006FCCCA /* SceneDelegate.swift in Sources */,
+				2CC2FEBD276E5D7B00F230E0 /* ColorPickerViewController.swift in Sources */,
 				2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */,
 				2CC2FEB8276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift in Sources */,
 				2CC2FEB1276D2C0600F230E0 /* LocationButtonViewController.swift in Sources */,
