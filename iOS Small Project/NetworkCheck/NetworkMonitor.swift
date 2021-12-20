@@ -36,7 +36,8 @@ final class NetworkMonitor {
         monitor.pathUpdateHandler = {[weak self] path in
             
             guard let self = self else {return}
-            self.isConnected = path.status == .satisfied
+            //self.isConnected = path.status == .satisfied
+            self.isConnected = path.status != .unsatisfied
             self.getConnectionType(path)
             print("Network - startMonitoring() - isConnected: \(self.isConnected)")
             
