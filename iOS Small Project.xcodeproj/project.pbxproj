@@ -10,6 +10,7 @@
 		2C6EE228276F863600EBF997 /* ShimmerAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EE227276F863600EBF997 /* ShimmerAnimationViewController.swift */; };
 		2C6EE22E2770B90A00EBF997 /* NetWorkCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EE22D2770B90A00EBF997 /* NetWorkCheckViewController.swift */; };
 		2C6EE2302770B99200EBF997 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EE22F2770B99200EBF997 /* NetworkMonitor.swift */; };
+		2C6EE23327720E8A00EBF997 /* LayoutGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EE23227720E8A00EBF997 /* LayoutGuideViewController.swift */; };
 		2C9B1AB92757AE49006FCCCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */; };
 		2C9B1ABB2757AE49006FCCCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */; };
 		2C9B1ABD2757AE49006FCCCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1ABC2757AE49006FCCCA /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		2C6EE227276F863600EBF997 /* ShimmerAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerAnimationViewController.swift; sourceTree = "<group>"; };
 		2C6EE22D2770B90A00EBF997 /* NetWorkCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkCheckViewController.swift; sourceTree = "<group>"; };
 		2C6EE22F2770B99200EBF997 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		2C6EE23227720E8A00EBF997 /* LayoutGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuideViewController.swift; sourceTree = "<group>"; };
 		2C9B1AB52757AE49006FCCCA /* iOS Small Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Small Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,14 @@
 			path = NetworkCheck;
 			sourceTree = "<group>";
 		};
+		2C6EE23127720E7B00EBF997 /* LayoutGuide */ = {
+			isa = PBXGroup;
+			children = (
+				2C6EE23227720E8A00EBF997 /* LayoutGuideViewController.swift */,
+			);
+			path = LayoutGuide;
+			sourceTree = "<group>";
+		};
 		2C9B1AAC2757AE49006FCCCA = {
 			isa = PBXGroup;
 			children = (
@@ -152,6 +162,7 @@
 				2C6EE22C2770B8FB00EBF997 /* NetworkCheck */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
+				2C6EE23127720E7B00EBF997 /* LayoutGuide */,
 				2C9B1AC62757AE4A006FCCCA /* Info.plist */,
 			);
 			path = "iOS Small Project";
@@ -403,6 +414,7 @@
 				2CB53D25275E78110009A4A6 /* HomeViewController.swift in Sources */,
 				2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */,
 				2CB53D2C275EAFD60009A4A6 /* ActivityRingViewController.swift in Sources */,
+				2C6EE23327720E8A00EBF997 /* LayoutGuideViewController.swift in Sources */,
 				2CB53D29275E80CC0009A4A6 /* InfoViewController.swift in Sources */,
 				2C9B1ACE2757B330006FCCCA /* ContextMenusViewController.swift in Sources */,
 				2CEB4F052759BDA400E162D0 /* ShakeGestureViewController.swift in Sources */,
