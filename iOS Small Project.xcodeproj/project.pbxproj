@@ -35,6 +35,7 @@
 		2CD2193D2759524A004AB07F /* WaterFallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193C2759524A004AB07F /* WaterFallViewController.swift */; };
 		2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */; };
 		2CD2B1042772AFCE003D6E63 /* RequestReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2B1032772AFCE003D6E63 /* RequestReviewViewController.swift */; };
+		2CD2B10727736E28003D6E63 /* ParseHtmlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2B10627736E28003D6E63 /* ParseHtmlViewController.swift */; };
 		2CEB4F052759BDA400E162D0 /* ShakeGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB4F042759BDA400E162D0 /* ShakeGestureViewController.swift */; };
 		7A0A70031FE4A69D537EE445 /* Pods_iOS_Small_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7111F1741AFEA5DDF98277D2 /* Pods_iOS_Small_Project.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +72,7 @@
 		2CD2193C2759524A004AB07F /* WaterFallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallViewController.swift; sourceTree = "<group>"; };
 		2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		2CD2B1032772AFCE003D6E63 /* RequestReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewViewController.swift; sourceTree = "<group>"; };
+		2CD2B10627736E28003D6E63 /* ParseHtmlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseHtmlViewController.swift; sourceTree = "<group>"; };
 		2CEB4F042759BDA400E162D0 /* ShakeGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGestureViewController.swift; sourceTree = "<group>"; };
 		7111F1741AFEA5DDF98277D2 /* Pods_iOS_Small_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Small_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D7605603EF340DC6CF15FF /* Pods-iOS Small Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Small Project.release.xcconfig"; path = "Target Support Files/Pods-iOS Small Project/Pods-iOS Small Project.release.xcconfig"; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				2C9B1AC12757AE4A006FCCCA /* Assets.xcassets */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
+				2CD2B10527736E1A003D6E63 /* ParseHtml */,
 				2CD2B1022772AFBD003D6E63 /* RequestReview */,
 				2C9B1AC62757AE4A006FCCCA /* Info.plist */,
 			);
@@ -278,6 +281,14 @@
 				2CD2B1032772AFCE003D6E63 /* RequestReviewViewController.swift */,
 			);
 			path = RequestReview;
+			sourceTree = "<group>";
+		};
+		2CD2B10527736E1A003D6E63 /* ParseHtml */ = {
+			isa = PBXGroup;
+			children = (
+				2CD2B10627736E28003D6E63 /* ParseHtmlViewController.swift */,
+			);
+			path = ParseHtml;
 			sourceTree = "<group>";
 		};
 		2CEB4F032759BD8900E162D0 /* ShakeGesture */ = {
@@ -430,6 +441,7 @@
 				2C9B1ACE2757B330006FCCCA /* ContextMenusViewController.swift in Sources */,
 				2CEB4F052759BDA400E162D0 /* ShakeGestureViewController.swift in Sources */,
 				2C9B1ABB2757AE49006FCCCA /* SceneDelegate.swift in Sources */,
+				2CD2B10727736E28003D6E63 /* ParseHtmlViewController.swift in Sources */,
 				2C6EE228276F863600EBF997 /* ShimmerAnimationViewController.swift in Sources */,
 				2CD2B1042772AFCE003D6E63 /* RequestReviewViewController.swift in Sources */,
 				2C6EE22E2770B90A00EBF997 /* NetWorkCheckViewController.swift in Sources */,
