@@ -28,6 +28,7 @@
 		2CB53D29275E80CC0009A4A6 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D28275E80CC0009A4A6 /* InfoViewController.swift */; };
 		2CB53D2C275EAFD60009A4A6 /* ActivityRingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D2B275EAFD60009A4A6 /* ActivityRingViewController.swift */; };
 		2CB53D30275EB4030009A4A6 /* BlurAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D2F275EB4030009A4A6 /* BlurAnimationViewController.swift */; };
+		2CBFBDB027769653008FA77A /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBFBDAF27769653008FA77A /* AnimationViewController.swift */; };
 		2CC2FEAB276BB11300F230E0 /* FaceIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEAA276BB11300F230E0 /* FaceIDViewController.swift */; };
 		2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEAC276D286700F230E0 /* NewButtonViewController.swift */; };
 		2CC2FEB1276D2C0600F230E0 /* LocationButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC2FEB0276D2C0600F230E0 /* LocationButtonViewController.swift */; };
@@ -67,6 +68,7 @@
 		2CB53D28275E80CC0009A4A6 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		2CB53D2B275EAFD60009A4A6 /* ActivityRingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingViewController.swift; sourceTree = "<group>"; };
 		2CB53D2F275EB4030009A4A6 /* BlurAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurAnimationViewController.swift; sourceTree = "<group>"; };
+		2CBFBDAF27769653008FA77A /* AnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
 		2CC2FEAA276BB11300F230E0 /* FaceIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDViewController.swift; sourceTree = "<group>"; };
 		2CC2FEAC276D286700F230E0 /* NewButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewButtonViewController.swift; sourceTree = "<group>"; };
 		2CC2FEB0276D2C0600F230E0 /* LocationButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationButtonViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				2C9B1AC12757AE4A006FCCCA /* Assets.xcassets */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
+				2CBFBDAE27769643008FA77A /* Animation */,
 				2C50C33A2774A77A00DC10CF /* HapticManager */,
 				2CD2B10527736E1A003D6E63 /* ParseHtml */,
 				2CD2B1022772AFBD003D6E63 /* RequestReview */,
@@ -230,6 +233,14 @@
 				2CB53D2F275EB4030009A4A6 /* BlurAnimationViewController.swift */,
 			);
 			path = "Blur Animation";
+			sourceTree = "<group>";
+		};
+		2CBFBDAE27769643008FA77A /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				2CBFBDAF27769653008FA77A /* AnimationViewController.swift */,
+			);
+			path = Animation;
 			sourceTree = "<group>";
 		};
 		2CC2FEA9276BB10400F230E0 /* FaceID */ = {
@@ -463,6 +474,7 @@
 				2CC2FEBD276E5D7B00F230E0 /* ColorPickerViewController.swift in Sources */,
 				2C50C33E2774A80600DC10CF /* HapticsManager.swift in Sources */,
 				2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */,
+				2CBFBDB027769653008FA77A /* AnimationViewController.swift in Sources */,
 				2CC2FEB8276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift in Sources */,
 				2CC2FEB1276D2C0600F230E0 /* LocationButtonViewController.swift in Sources */,
 			);
