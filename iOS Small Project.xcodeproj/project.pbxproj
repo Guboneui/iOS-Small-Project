@@ -39,6 +39,8 @@
 		2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */; };
 		2CD2B1042772AFCE003D6E63 /* RequestReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2B1032772AFCE003D6E63 /* RequestReviewViewController.swift */; };
 		2CD2B10727736E28003D6E63 /* ParseHtmlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD2B10627736E28003D6E63 /* ParseHtmlViewController.swift */; };
+		2CD9E2022778894500CF70AE /* PDFKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD9E2012778894500CF70AE /* PDFKitViewController.swift */; };
+		2CD9E2042778896B00CF70AE /* CV.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2CD9E2032778896B00CF70AE /* CV.pdf */; };
 		2CEB4F052759BDA400E162D0 /* ShakeGestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEB4F042759BDA400E162D0 /* ShakeGestureViewController.swift */; };
 		7A0A70031FE4A69D537EE445 /* Pods_iOS_Small_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7111F1741AFEA5DDF98277D2 /* Pods_iOS_Small_Project.framework */; };
 /* End PBXBuildFile section */
@@ -79,6 +81,8 @@
 		2CD2193E27595293004AB07F /* WaterFallImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterFallImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		2CD2B1032772AFCE003D6E63 /* RequestReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestReviewViewController.swift; sourceTree = "<group>"; };
 		2CD2B10627736E28003D6E63 /* ParseHtmlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseHtmlViewController.swift; sourceTree = "<group>"; };
+		2CD9E2012778894500CF70AE /* PDFKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFKitViewController.swift; sourceTree = "<group>"; };
+		2CD9E2032778896B00CF70AE /* CV.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = CV.pdf; sourceTree = "<group>"; };
 		2CEB4F042759BDA400E162D0 /* ShakeGestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeGestureViewController.swift; sourceTree = "<group>"; };
 		7111F1741AFEA5DDF98277D2 /* Pods_iOS_Small_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Small_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D7605603EF340DC6CF15FF /* Pods-iOS Small Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Small Project.release.xcconfig"; path = "Target Support Files/Pods-iOS Small Project/Pods-iOS Small Project.release.xcconfig"; sourceTree = "<group>"; };
@@ -182,6 +186,7 @@
 				2C9B1AC12757AE4A006FCCCA /* Assets.xcassets */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
+				2CD9E2002778893900CF70AE /* PDFKit */,
 				2CBFBDAE27769643008FA77A /* Animation */,
 				2C50C33A2774A77A00DC10CF /* HapticManager */,
 				2CD2B10527736E1A003D6E63 /* ParseHtml */,
@@ -316,6 +321,15 @@
 			path = ParseHtml;
 			sourceTree = "<group>";
 		};
+		2CD9E2002778893900CF70AE /* PDFKit */ = {
+			isa = PBXGroup;
+			children = (
+				2CD9E2032778896B00CF70AE /* CV.pdf */,
+				2CD9E2012778894500CF70AE /* PDFKitViewController.swift */,
+			);
+			path = PDFKit;
+			sourceTree = "<group>";
+		};
 		2CEB4F032759BD8900E162D0 /* ShakeGesture */ = {
 			isa = PBXGroup;
 			children = (
@@ -395,6 +409,7 @@
 				2C9B1AC52757AE4A006FCCCA /* LaunchScreen.storyboard in Resources */,
 				2C9B1AC22757AE4A006FCCCA /* Assets.xcassets in Resources */,
 				2C9B1AC02757AE49006FCCCA /* Main.storyboard in Resources */,
+				2CD9E2042778896B00CF70AE /* CV.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +491,7 @@
 				2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */,
 				2CBFBDB027769653008FA77A /* AnimationViewController.swift in Sources */,
 				2CC2FEB8276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift in Sources */,
+				2CD9E2022778894500CF70AE /* PDFKitViewController.swift in Sources */,
 				2CC2FEB1276D2C0600F230E0 /* LocationButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
