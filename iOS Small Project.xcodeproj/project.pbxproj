@@ -13,6 +13,7 @@
 		2C6EE22E2770B90A00EBF997 /* NetWorkCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EE22D2770B90A00EBF997 /* NetWorkCheckViewController.swift */; };
 		2C6EE2302770B99200EBF997 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EE22F2770B99200EBF997 /* NetworkMonitor.swift */; };
 		2C6EE23327720E8A00EBF997 /* LayoutGuideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EE23227720E8A00EBF997 /* LayoutGuideViewController.swift */; };
+		2C802C7F277A098000E307F1 /* CustomTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C802C7E277A098000E307F1 /* CustomTextViewController.swift */; };
 		2C9B1AB92757AE49006FCCCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */; };
 		2C9B1ABB2757AE49006FCCCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */; };
 		2C9B1ABD2757AE49006FCCCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1ABC2757AE49006FCCCA /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 		2C6EE22D2770B90A00EBF997 /* NetWorkCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkCheckViewController.swift; sourceTree = "<group>"; };
 		2C6EE22F2770B99200EBF997 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
 		2C6EE23227720E8A00EBF997 /* LayoutGuideViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutGuideViewController.swift; sourceTree = "<group>"; };
+		2C802C7E277A098000E307F1 /* CustomTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextViewController.swift; sourceTree = "<group>"; };
 		2C9B1AB52757AE49006FCCCA /* iOS Small Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Small Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,14 @@
 			path = LayoutGuide;
 			sourceTree = "<group>";
 		};
+		2C802C7D277A097300E307F1 /* CustomText */ = {
+			isa = PBXGroup;
+			children = (
+				2C802C7E277A098000E307F1 /* CustomTextViewController.swift */,
+			);
+			path = CustomText;
+			sourceTree = "<group>";
+		};
 		2C9B1AAC2757AE49006FCCCA = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +196,7 @@
 				2C9B1AC12757AE4A006FCCCA /* Assets.xcassets */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
+				2C802C7D277A097300E307F1 /* CustomText */,
 				2CD9E2002778893900CF70AE /* PDFKit */,
 				2CBFBDAE27769643008FA77A /* Animation */,
 				2C50C33A2774A77A00DC10CF /* HapticManager */,
@@ -486,6 +497,7 @@
 				2C6EE228276F863600EBF997 /* ShimmerAnimationViewController.swift in Sources */,
 				2CD2B1042772AFCE003D6E63 /* RequestReviewViewController.swift in Sources */,
 				2C6EE22E2770B90A00EBF997 /* NetWorkCheckViewController.swift in Sources */,
+				2C802C7F277A098000E307F1 /* CustomTextViewController.swift in Sources */,
 				2CC2FEBD276E5D7B00F230E0 /* ColorPickerViewController.swift in Sources */,
 				2C50C33E2774A80600DC10CF /* HapticsManager.swift in Sources */,
 				2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */,
