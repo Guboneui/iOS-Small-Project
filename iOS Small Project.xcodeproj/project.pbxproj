@@ -24,6 +24,7 @@
 		2C9B1ACE2757B330006FCCCA /* ContextMenusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1ACD2757B330006FCCCA /* ContextMenusViewController.swift */; };
 		2C9B1AD02757B524006FCCCA /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1ACF2757B524006FCCCA /* ImageCollectionViewCell.swift */; };
 		2C9B1AFB2757D7B6006FCCCA /* MVVMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B1AFA2757D7B6006FCCCA /* MVVMViewController.swift */; };
+		2CAB092A277CB2F800B2CEE4 /* RxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CAB0929277CB2F800B2CEE4 /* RxViewModel.swift */; };
 		2CB53D23275E75940009A4A6 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D22275E75940009A4A6 /* SideMenuViewController.swift */; };
 		2CB53D25275E78110009A4A6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D24275E78110009A4A6 /* HomeViewController.swift */; };
 		2CB53D27275E78220009A4A6 /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB53D26275E78220009A4A6 /* ContainerViewController.swift */; };
@@ -68,6 +69,7 @@
 		2C9B1ACD2757B330006FCCCA /* ContextMenusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenusViewController.swift; sourceTree = "<group>"; };
 		2C9B1ACF2757B524006FCCCA /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		2C9B1AFA2757D7B6006FCCCA /* MVVMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVMViewController.swift; sourceTree = "<group>"; };
+		2CAB0929277CB2F800B2CEE4 /* RxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewModel.swift; sourceTree = "<group>"; };
 		2CB53D22275E75940009A4A6 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
 		2CB53D24275E78110009A4A6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2CB53D26275E78220009A4A6 /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				2C6EE23127720E7B00EBF997 /* LayoutGuide */,
 				2C6EE22C2770B8FB00EBF997 /* NetworkCheck */,
 				2C9B1AC12757AE4A006FCCCA /* Assets.xcassets */,
+				2CAB0928277CB2E400B2CEE4 /* RxSwift */,
 				2C9B1AC32757AE4A006FCCCA /* LaunchScreen.storyboard */,
 				2C9B1ABC2757AE49006FCCCA /* ViewController.swift */,
 				2C802C8B277B93D800E307F1 /* PhotoPicker */,
@@ -233,6 +236,14 @@
 				2C9B1AFA2757D7B6006FCCCA /* MVVMViewController.swift */,
 			);
 			path = MVVMBinding;
+			sourceTree = "<group>";
+		};
+		2CAB0928277CB2E400B2CEE4 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2CAB0929277CB2F800B2CEE4 /* RxViewModel.swift */,
+			);
+			path = RxSwift;
 			sourceTree = "<group>";
 		};
 		2CB53D21275E75800009A4A6 /* SideMenu */ = {
@@ -514,6 +525,7 @@
 				2C50C33E2774A80600DC10CF /* HapticsManager.swift in Sources */,
 				2CC2FEAD276D286700F230E0 /* NewButtonViewController.swift in Sources */,
 				2CBFBDB027769653008FA77A /* AnimationViewController.swift in Sources */,
+				2CAB092A277CB2F800B2CEE4 /* RxViewModel.swift in Sources */,
 				2CC2FEB8276E5A3A00F230E0 /* ConfettiAnimationEffectViewController.swift in Sources */,
 				2CD9E2022778894500CF70AE /* PDFKitViewController.swift in Sources */,
 				2CC2FEB1276D2C0600F230E0 /* LocationButtonViewController.swift in Sources */,
