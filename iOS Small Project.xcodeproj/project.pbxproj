@@ -11,6 +11,7 @@
 		2C50C33E2774A80600DC10CF /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50C33D2774A80600DC10CF /* HapticsManager.swift */; };
 		2C586CBE2843C804006B1113 /* CombineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C586CBD2843C804006B1113 /* CombineViewController.swift */; };
 		2C586CC02843C915006B1113 /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C586CBF2843C915006B1113 /* CombineViewModel.swift */; };
+		2C586CC22843CE5E006B1113 /* DebounceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C586CC12843CE5E006B1113 /* DebounceViewController.swift */; };
 		2C6EE228276F863600EBF997 /* ShimmerAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EE227276F863600EBF997 /* ShimmerAnimationViewController.swift */; };
 		2C6EE22E2770B90A00EBF997 /* NetWorkCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EE22D2770B90A00EBF997 /* NetWorkCheckViewController.swift */; };
 		2C6EE2302770B99200EBF997 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6EE22F2770B99200EBF997 /* NetworkMonitor.swift */; };
@@ -58,6 +59,7 @@
 		2C586CBC2843C17E006B1113 /* combine_tutorial_01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combine_tutorial_01.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C586CBD2843C804006B1113 /* CombineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewController.swift; sourceTree = "<group>"; };
 		2C586CBF2843C915006B1113 /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
+		2C586CC12843CE5E006B1113 /* DebounceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebounceViewController.swift; sourceTree = "<group>"; };
 		2C6EB715279F05B800140504 /* DispatchPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DispatchPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C6EE227276F863600EBF997 /* ShimmerAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerAnimationViewController.swift; sourceTree = "<group>"; };
 		2C6EE22D2770B90A00EBF997 /* NetWorkCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkCheckViewController.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				2C586CBC2843C17E006B1113 /* combine_tutorial_01.playground */,
 				2C586CBD2843C804006B1113 /* CombineViewController.swift */,
 				2C586CBF2843C915006B1113 /* CombineViewModel.swift */,
+				2C586CC12843CE5E006B1113 /* DebounceViewController.swift */,
 			);
 			path = Combine;
 			sourceTree = "<group>";
@@ -546,6 +549,7 @@
 				2C9B1AFB2757D7B6006FCCCA /* MVVMViewController.swift in Sources */,
 				2C9B1AB92757AE49006FCCCA /* AppDelegate.swift in Sources */,
 				2CB53D25275E78110009A4A6 /* HomeViewController.swift in Sources */,
+				2C586CC22843CE5E006B1113 /* DebounceViewController.swift in Sources */,
 				2CD2193F27595293004AB07F /* WaterFallImageCollectionViewCell.swift in Sources */,
 				2CB53D2C275EAFD60009A4A6 /* ActivityRingViewController.swift in Sources */,
 				2C6EE23327720E8A00EBF997 /* LayoutGuideViewController.swift in Sources */,
