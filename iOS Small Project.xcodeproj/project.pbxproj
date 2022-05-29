@@ -53,6 +53,7 @@
 		04224C214197F316CD6357A2 /* Pods-iOS Small Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Small Project.debug.xcconfig"; path = "Target Support Files/Pods-iOS Small Project/Pods-iOS Small Project.debug.xcconfig"; sourceTree = "<group>"; };
 		2C50C33B2774A78B00DC10CF /* HapticManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManagerViewController.swift; sourceTree = "<group>"; };
 		2C50C33D2774A80600DC10CF /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		2C586CBC2843C17E006B1113 /* combine_tutorial_01.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = combine_tutorial_01.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C6EB715279F05B800140504 /* DispatchPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DispatchPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		2C6EE227276F863600EBF997 /* ShimmerAnimationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShimmerAnimationViewController.swift; sourceTree = "<group>"; };
 		2C6EE22D2770B90A00EBF997 /* NetWorkCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkCheckViewController.swift; sourceTree = "<group>"; };
@@ -125,6 +126,14 @@
 				2C50C33D2774A80600DC10CF /* HapticsManager.swift */,
 			);
 			path = HapticManager;
+			sourceTree = "<group>";
+		};
+		2C586CBB2843C0AC006B1113 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				2C586CBC2843C17E006B1113 /* combine_tutorial_01.playground */,
+			);
+			path = Combine;
 			sourceTree = "<group>";
 		};
 		2C6EB714279F05A300140504 /* DispatchQueue */ = {
@@ -200,6 +209,7 @@
 				2C9B1ABA2757AE49006FCCCA /* SceneDelegate.swift */,
 				2C9B1ABE2757AE49006FCCCA /* Main.storyboard */,
 				2C9B1AB82757AE49006FCCCA /* AppDelegate.swift */,
+				2C586CBB2843C0AC006B1113 /* Combine */,
 				2C9B1ACC2757B0F4006FCCCA /* ContextMenusInCollectionView */,
 				2C9B1AF92757D793006FCCCA /* MVVMBinding */,
 				2CD21938275932C6004AB07F /* CallingExample */,
