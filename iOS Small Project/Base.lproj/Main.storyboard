@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="g3h-40-z73">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jYQ-ZL-8Cs">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,6 +23,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1042.0289855072465" y="114.50892857142857"/>
+        </scene>
+        <!--Combine View Controller-->
+        <scene sceneID="XSa-eS-aUe">
+            <objects>
+                <viewController id="jYQ-ZL-8Cs" customClass="CombineViewController" customModule="iOS_Small_Project" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hVx-Rh-rQa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비번 입력" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k4Y-aM-uSX">
+                                <rect key="frame" x="20" y="64" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="비번 확인" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5Od-fB-aV4">
+                                <rect key="frame" x="20" y="118" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="srb-sS-SS1">
+                                <rect key="frame" x="40" y="182" width="334" height="50"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="gl7-CQ-Xtm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nhN-NV-mCW"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="srb-sS-SS1" firstAttribute="leading" secondItem="nhN-NV-mCW" secondAttribute="leading" constant="40" id="9mv-Ep-arP"/>
+                            <constraint firstItem="5Od-fB-aV4" firstAttribute="top" secondItem="k4Y-aM-uSX" secondAttribute="bottom" constant="20" id="AAl-TQ-v1Y"/>
+                            <constraint firstItem="k4Y-aM-uSX" firstAttribute="leading" secondItem="nhN-NV-mCW" secondAttribute="leading" constant="20" id="FBH-C8-x8j"/>
+                            <constraint firstItem="k4Y-aM-uSX" firstAttribute="top" secondItem="nhN-NV-mCW" secondAttribute="top" constant="20" id="MuI-0L-xYA"/>
+                            <constraint firstItem="nhN-NV-mCW" firstAttribute="trailing" secondItem="5Od-fB-aV4" secondAttribute="trailing" constant="20" id="QAE-Oq-UlW"/>
+                            <constraint firstItem="nhN-NV-mCW" firstAttribute="trailing" secondItem="k4Y-aM-uSX" secondAttribute="trailing" constant="20" id="aGb-gc-IEY"/>
+                            <constraint firstItem="nhN-NV-mCW" firstAttribute="trailing" secondItem="srb-sS-SS1" secondAttribute="trailing" constant="40" id="gdL-FL-qZv"/>
+                            <constraint firstItem="srb-sS-SS1" firstAttribute="top" secondItem="5Od-fB-aV4" secondAttribute="bottom" constant="30" id="oMS-ba-y2s"/>
+                            <constraint firstItem="5Od-fB-aV4" firstAttribute="leading" secondItem="nhN-NV-mCW" secondAttribute="leading" constant="20" id="pjG-Xh-msz"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myButton" destination="srb-sS-SS1" id="sye-PU-uBS"/>
+                        <outlet property="passwordConfirmTextField" destination="5Od-fB-aV4" id="eUV-rn-fBK"/>
+                        <outlet property="passwordTextField" destination="k4Y-aM-uSX" id="aNR-zj-Idj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lBO-Nf-SrT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2637" y="124"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dP4-02-Gkg">
@@ -43,4 +98,9 @@
             <point key="canvasLocation" x="131.8840579710145" y="114.50892857142857"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
